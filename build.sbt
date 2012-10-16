@@ -6,6 +6,8 @@ organization := "com.github.philcali"
 
 version := "0.1.2"
 
+scalacOptions += "-deprecation"
+
 libraryDependencies += "com.googlecode.jslint4java" % "jslint4java" % "2.0.2"
 
 publishTo <<= version { v: String =>
